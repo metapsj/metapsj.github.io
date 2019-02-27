@@ -1,4 +1,8 @@
 
+# build a blog with middleman and host on github pages
+# important bits are the difference between source / development, master, and gh-pages branches
+https://medium.com/@ryanswapp/build-a-blog-with-middleman-and-host-on-github-pages-aab82a7fc56e
+
 # guide to using github pages with your own custom domain
 # important bits are the difference between gh-pages vs master branch
 # and using the middleman-deploy gem vs middleman-ghpages gem
