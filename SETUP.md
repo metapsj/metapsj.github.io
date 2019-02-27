@@ -17,3 +17,6 @@ https://www.netlify.com/docs/continuous-deployment/#deploy-contexts
 # 
 http://ben.balter.com/jekyll-auth/getting-started/
 
+# middleman-templates-blog
+https://github.com/middleman/middleman-templates-blog/tree/master/template/source
+
