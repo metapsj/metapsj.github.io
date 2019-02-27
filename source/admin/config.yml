@@ -1,10 +1,10 @@
 backend:
   name: github
-  repo: bdougie/blog # Path to your Github repository
-  branch: master # Branch to update (master by default)
+  repo: metapsj/metapsj.github.io   # Path to your Github repository
+  branch: master                    # Branch to update (master by default)
 
-media_folder: "source/img/uploads" # Folder where user uploaded files should go
-public_folder: "source" # CMS now knows 'source' is the public folder and will strip this from the path
+media_folder: "source/images/uploads"  # Folder where user uploaded files should go
+public_folder: "source"             # CMS now knows 'source' is the public folder and will strip this from the path
 
 publish_mode: editorial_workflow
 
