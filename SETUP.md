@@ -1,4 +1,9 @@
 
+# guide to using github pages with your own custom domain
+# important bits are the difference between gh-pages vs master branch
+# and using the middleman-deploy gem vs middleman-ghpages gem
+http://www.binarywebpark.com/github-pages-middleman-custom-domain-portfolio/
+
 # middleman netlify post
 https://www.netlify.com/blog/2017/04/20/creating-a-blog-with-middleman-and-netlify-cms/
 
