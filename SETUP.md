@@ -4,4 +4,5 @@
 - http://ben.balter.com/jekyll-auth/getting-started/
 - https://github.com/bdougie/blog/
 - https://www.youtube.com/watch?v=_CNZJLYvINc
+- https://www.netlifycms.org/docs/intro/
 
