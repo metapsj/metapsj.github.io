@@ -8,7 +8,7 @@ end
 # middleman-blog
 activate :blog do |blog|
   # This will add a prefix to all links, template references and source paths
-  # blog.prefix = "blog"
+  blog.prefix = "posts"
 
   # blog.permalink = "{year}/{month}/{day}/{title}.html"
   # Matcher for blog source files
@@ -20,16 +20,19 @@ activate :blog do |blog|
   # blog.year_link = "{year}.html"
   # blog.month_link = "{year}/{month}.html"
   # blog.day_link = "{year}/{month}/{day}.html"
-  # blog.default_extension = ".markdown"
+  blog.default_extension = ".md"
 
   blog.tag_template = "tag.html"
   blog.calendar_template = "calendar.html"
 
   # Enable pagination
-  # blog.paginate = true
-  # blog.per_page = 10
-  # blog.page_link = "page/{num}"
+  blog.paginate = true
+  blog.per_page = 10
+  blog.page_link = "page/{num}"
 end
+
+# pretty urls
+activate :directory_indexes
 
 # Layouts
 # https://middlemanapp.com/basics/layouts/
@@ -71,3 +74,4 @@ page "/feed.xml", layout: false
 #   activate :minify_css
 #   activate :minify_javascript
 # end
+#
