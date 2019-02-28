@@ -38,6 +38,9 @@ end
 # pretty urls
 activate :directory_indexes
 
+# livereload
+activate :livereload
+
 # Layouts
 # https://middlemanapp.com/basics/layouts/
 
