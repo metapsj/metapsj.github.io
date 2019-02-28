@@ -1,15 +1,13 @@
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
-activate :autoprefixer do |prefix|
-  prefix.browsers = "last 2 versions"
-end
-
-# middleman-blog
 activate :blog do |blog|
+  blog.name = "blog"
+
   # This will add a prefix to all links, template references and source paths
   blog.prefix = "posts"
   # blog.permalink = "{year}/{month}/{day}/{title}.html"
+
   # Matcher for blog source files
   # blog.sources = "{year}-{month}-{day}-{title}.html"
   # blog.taglink = "tags/{tag}.html"
@@ -19,39 +17,41 @@ activate :blog do |blog|
   # blog.year_link = "{year}.html"
   # blog.month_link = "{year}/{month}.html"
   # blog.day_link = "{year}/{month}/{day}.html"
+
   blog.default_extension = ".md"
   blog.tag_template = "tag.html"
   blog.calendar_template = "calendar.html"
-  # Enable pagination
+
+  # enable pagination
   blog.paginate = true
   blog.per_page = 10
   blog.page_link = "page/{num}"
 end
 
-# deploy
+# consider using parcel.js for asset pipeline
+activate :autoprefixer do |prefix|
+  prefix.browsers = "last 2 versions"
+end
+
 activate :deploy do |deploy|
   deploy.deploy_method = :git
   deploy.branch = 'master'
   deploy.build_before = true
 end
 
-# pretty urls
-activate :directory_indexes
-
-# livereload
+activate :directory_indexes       # pretty urls
 activate :livereload
 
 # Layouts
 # https://middlemanapp.com/basics/layouts/
 
-# Per-page layout changes
+# per-page layout changes
+# with alternative layout
+# page '/path/to/file.html', layout: 'other_layout'
 page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 page "/feed.xml", layout: false
-
-# With alternative layout
-# page '/path/to/file.html', layout: 'other_layout'
 
 # Proxy pages
 # https://middlemanapp.com/advanced/dynamic-pages/
@@ -81,4 +81,5 @@ page "/feed.xml", layout: false
 #   activate :minify_css
 #   activate :minify_javascript
 # end
-#
+
+
