@@ -1,8 +1,9 @@
 ---
 
 title: <%= @title %> 
-author: metapsj
 date: <%= @date.strftime('%F %R %Z') %>
+author: metapsj
+lead: the most important information about the article / post
 category:  
 tags:  
 thumb: pubsub.png
