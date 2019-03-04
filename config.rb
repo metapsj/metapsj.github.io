@@ -1,6 +1,17 @@
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
 
+# time zone
+Time.zone = "US/Pacific"
+
+# markdown
+set :markdown_engine, :redcarpet
+set :markdown, fenced_code_blocks: true, smartypants: true
+
+# code highlighting
+activate :syntax, line_numbers: true
+
+# blog
 activate :blog do |blog|
   blog.name = "blog"
 
@@ -28,17 +39,22 @@ activate :blog do |blog|
   blog.page_link = "page/{num}"
 end
 
+# autoprefixer
 activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
 
+# deploy
 activate :deploy do |deploy|
   deploy.deploy_method = :git
   deploy.branch = 'master'
   deploy.build_before = true
 end
 
-activate :directory_indexes       # pretty urls
+# pretty urls
+activate :directory_indexes
+
+# livereload
 activate :livereload
 
 # Layouts
@@ -73,9 +89,8 @@ page "/feed.xml", layout: false
 #   end
 # end
 
-# Build-specific configuration
+# build
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings
-
 configure :build do
 #  activate :minify_css
 #  activate :minify_javascript
