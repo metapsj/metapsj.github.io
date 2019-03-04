@@ -1,4 +1,7 @@
 
+# three middleman hacks we're using on this site
+https://www.discovermeteor.com/blog/three-middleman-hacks-were-using-on-this-site/
+
 # build a blog with middleman and host on github pages
 # important bits are the difference between source / development, master, and gh-pages branches
 https://medium.com/@ryanswapp/build-a-blog-with-middleman-and-host-on-github-pages-aab82a7fc56e
@@ -7,9 +10,6 @@ https://medium.com/@ryanswapp/build-a-blog-with-middleman-and-host-on-github-pag
 # important bits are the difference between gh-pages vs master branch
 # and using the middleman-deploy gem vs middleman-ghpages gem
 http://www.binarywebpark.com/github-pages-middleman-custom-domain-portfolio/
-
-# three middleman hacks we're using on this site
-https://www.discovermeteor.com/blog/three-middleman-hacks-were-using-on-this-site/
 
 # middleman netlify post
 https://www.netlify.com/blog/2017/04/20/creating-a-blog-with-middleman-and-netlify-cms/
