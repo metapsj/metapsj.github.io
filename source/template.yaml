@@ -1,9 +1,13 @@
 ---
 
 title: <%= @title %> 
+author: metapsj
 date: <%= @date.strftime('%F %R %Z') %>
 category:  
 tags:  
+thumb: pubsub.png
+featured: true
+published: true
 
 ---
 
