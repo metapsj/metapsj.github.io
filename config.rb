@@ -4,6 +4,11 @@
 # time zone
 Time.zone = "US/Pacific"
 
+# asset paths
+set :css_dir, "styles"
+set :js_dir, "javascripts"
+set :images_dir, "images"
+
 # markdown
 set :markdown_engine, :redcarpet
 set :markdown, fenced_code_blocks: true, smartypants: true
