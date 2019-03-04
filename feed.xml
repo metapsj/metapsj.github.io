@@ -5,7 +5,7 @@
   <id>http://blog.url.com/blog</id>
   <link href="http://blog.url.com/blog"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
-  <updated>2019-02-27T20:11:00-08:00</updated>
+  <updated>2019-02-27T16:00:00-08:00</updated>
   <author>
     <name>Blog Author</name>
   </author>
@@ -13,8 +13,8 @@
     <title>Test Post</title>
     <link rel="alternate" href="http://blog.url.com/blog/2019/02/28/test-post/"/>
     <id>http://blog.url.com/blog/2019/02/28/test-post/</id>
-    <published>2019-02-27T20:11:00-08:00</published>
-    <updated>2019-02-28T17:54:32-08:00</updated>
+    <published>2019-02-27T16:00:00-08:00</published>
+    <updated>2019-03-03T16:00:54-08:00</updated>
     <author>
       <name>Article Author</name>
     </author>
