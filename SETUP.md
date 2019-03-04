@@ -11,6 +11,9 @@ https://medium.com/@ryanswapp/build-a-blog-with-middleman-and-host-on-github-pag
 # and using the middleman-deploy gem vs middleman-ghpages gem
 http://www.binarywebpark.com/github-pages-middleman-custom-domain-portfolio/
 
+# lunr: A bit like Solr, but much smaller and not as bright
+https://lunrjs.com/
+
 # middleman netlify post
 https://www.netlify.com/blog/2017/04/20/creating-a-blog-with-middleman-and-netlify-cms/
 
