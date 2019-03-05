@@ -19,41 +19,37 @@
 <div class="container">
 
 <header>
-  <h1>header</h1>
+  <h2>home</h2>
 
-  <nav class="top-nav">
-    <div class="top-nav__item">
-      <a href="#" class="top-nav__link">one</a>
+  <nav class="social-nav">
+    <div class="social-nav__item">
+      <a href="#" class="social-nav__link">twitter</a>
     </div>
     <div>
-      <a href="#">two</a>
+      <a href="#">github</a>
     </div>
     <div>
-      <a href="#">three</a>
-    </div>
-    <div>
-      <a href="#">four</a>
+      <a href="#">rss</a>
     </div>
   </nav>
 </header>
 
+<br />
+<br />
+<br />
+
 
 <main>
-  <h1>main</h1>
+  <h2>Recent</h2>
 
-  <article>
-    <h1>article#1</h1>
+  <% blog.articles[0...5].each do |article| %>
+    <article>
+      <%= link_to article.title, article %>
+      <div><%= article.date.strftime('%B %e %Y') %></div>
+    </article>
 
-    <section>
-      section#1
-    </section>
-    <section>
-      section#2
-    </section>
-    <section>
-      section#3
-    </section>
-  </article>
+    <br />
+  <% end %>
 
 </main>
 
@@ -62,25 +58,26 @@
 </aside>
 
 
+<br />
+<br />
+<br />
+
+
 <!-- BEGIN FIX -->
 <div id="main" role="main">
   <%= yield %>
 </div>
 
 <aside>
-  <h2>Recent Articles</h2>
-  <ol>
-    <% blog.articles[0...10].each do |article| %>
-      <li><%= link_to article.title, article %> <span><%= article.date.strftime('%b %e') %></span></li>
-    <% end %>
-  </ol>
-
   <h2>Tags</h2>
   <ol>
     <% blog.tags.each do |tag, articles| %>
       <li><%= link_to "#{tag} (#{articles.size})", tag_path(tag) %></li>
     <% end %>
   </ol>
+
+  <br />
+  <br />
 
   <h2>By Year</h2>
   <ol>
