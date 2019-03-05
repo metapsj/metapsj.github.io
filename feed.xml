@@ -2,8 +2,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Blog Name</title>
   <subtitle>Blog subtitle</subtitle>
-  <id>http://blog.url.com/blog</id>
-  <link href="http://blog.url.com/blog"/>
+  <id>http://blog.url.com/posts</id>
+  <link href="http://blog.url.com/posts"/>
   <link href="http://blog.url.com/feed.xml" rel="self"/>
   <updated>2019-03-04T12:13:00-08:00</updated>
   <author>
@@ -11,8 +11,8 @@
   </author>
   <entry>
     <title>Something about a custom default template for articles</title>
-    <link rel="alternate" href="http://blog.url.com/blog/2019/03/04/something-about-a-custom-default-template-for-articles/"/>
-    <id>http://blog.url.com/blog/2019/03/04/something-about-a-custom-default-template-for-articles/</id>
+    <link rel="alternate" href="http://blog.url.com/posts/2019/03/04/something-about-a-custom-default-template-for-articles/"/>
+    <id>http://blog.url.com/posts/2019/03/04/something-about-a-custom-default-template-for-articles/</id>
     <published>2019-03-04T12:13:00-08:00</published>
     <updated>2019-03-04T12:38:14-08:00</updated>
     <author>
@@ -23,8 +23,8 @@
   </entry>
   <entry>
     <title>Messing with time zone settings</title>
-    <link rel="alternate" href="http://blog.url.com/blog/2019/03/04/messing-with-time-zone-settings/"/>
-    <id>http://blog.url.com/blog/2019/03/04/messing-with-time-zone-settings/</id>
+    <link rel="alternate" href="http://blog.url.com/posts/2019/03/04/messing-with-time-zone-settings/"/>
+    <id>http://blog.url.com/posts/2019/03/04/messing-with-time-zone-settings/</id>
     <published>2019-03-04T11:59:00-08:00</published>
     <updated>2019-03-04T12:37:16-08:00</updated>
     <author>
@@ -35,8 +35,8 @@
   </entry>
   <entry>
     <title>Test Post</title>
-    <link rel="alternate" href="http://blog.url.com/blog/2019/02/28/test-post/"/>
-    <id>http://blog.url.com/blog/2019/02/28/test-post/</id>
+    <link rel="alternate" href="http://blog.url.com/posts/2019/02/28/test-post/"/>
+    <id>http://blog.url.com/posts/2019/02/28/test-post/</id>
     <published>2019-02-28T00:00:00-08:00</published>
     <updated>2019-03-04T12:36:52-08:00</updated>
     <author>
@@ -47,8 +47,8 @@
   </entry>
   <entry>
     <title>Example Article</title>
-    <link rel="alternate" href="http://blog.url.com/blog/2012/01/01/example-article/"/>
-    <id>http://blog.url.com/blog/2012/01/01/example-article/</id>
+    <link rel="alternate" href="http://blog.url.com/posts/2012/01/01/example-article/"/>
+    <id>http://blog.url.com/posts/2012/01/01/example-article/</id>
     <published>2012-01-01T00:00:00-08:00</published>
     <updated>2019-02-28T09:36:06-08:00</updated>
     <author>
