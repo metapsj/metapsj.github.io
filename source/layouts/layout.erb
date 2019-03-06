@@ -46,6 +46,8 @@
     <article>
       <%= link_to article.title, article %>
       <div><%= article.date.strftime('%B %e %Y') %></div>
+      <p><%= article.summary %></p>
+      <a href="<%= article.url %>">Read More</a>
     </article>
 
     <br />
