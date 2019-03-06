@@ -19,10 +19,15 @@
   &__date {
     font-size: 1.6rem;
     font-weight: 600;
+    color: $color-grey-dark;
     margin-bottom: 2rem;
   }
 
   &__summary {
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 2rem;
+    line-height: 1.7;
+    color: $color-grey-dark-3;  
   }
 
   &__more {
