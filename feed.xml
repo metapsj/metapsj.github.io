@@ -62,11 +62,11 @@
     <link rel="alternate" href="http://blog.url.com/posts/2012/01/01/example-article/"/>
     <id>http://blog.url.com/posts/2012/01/01/example-article/</id>
     <published>2012-01-01T00:00:00-08:00</published>
-    <updated>2019-03-05T20:06:59-08:00</updated>
+    <updated>2019-03-05T20:12:12-08:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;p&gt;This is an example article. You probably want to delete it and write your own articles!&lt;/p&gt;
+    <content type="html">&lt;p&gt;This is an example article. You probably want to delete it and write your own articles! &lt;/p&gt;
 
 &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu odio quis mauris rhoncus euismod. Morbi venenatis elit dui, quis tincidunt odio ultrices et. Donec tempus enim vel urna luctus congue. Quisque facilisis, metus quis imperdiet fringilla, mauris est iaculis diam, quis consectetur ante purus sit amet tortor. Etiam ac leo leo. Nulla vel ultrices enim. Aenean nec iaculis enim, sed condimentum sem. Aliquam pharetra eleifend vulputate. Pellentesque scelerisque egestas dolor, id congue metus tincidunt vitae. In hac habitasse platea dictumst. Ut commodo nulla mauris, malesuada pharetra metus feugiat ac. Fusce mattis urna in magna ullamcorper, a iaculis urna fermentum. Fusce in semper purus.&lt;/p&gt;
 
