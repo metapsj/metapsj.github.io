@@ -56,40 +56,31 @@
 </main>
 
 <aside>
-  right aside
-</aside>
-
-
-<br />
-<br />
-<br />
-
-
-<!-- BEGIN FIX -->
-<div id="main" role="main">
-  <%= yield %>
-</div>
-
-<aside>
   <h2>Tags</h2>
-  <ol>
+  <ul>
     <% blog.tags.each do |tag, articles| %>
       <li><%= link_to "#{tag} (#{articles.size})", tag_path(tag) %></li>
     <% end %>
-  </ol>
+  </ul>
 
   <br />
   <br />
 
   <h2>By Year</h2>
-  <ol>
+  <ul>
     <% blog.articles.group_by {|a| a.date.year }.each do |year, articles| %>
       <li><%= link_to "#{year} (#{articles.size})", blog_year_path(year) %></li>
     <% end %>
-  </ol>
+  </ul>
 </aside>
-<!-- END FIX -->
 
+<br />
+<br />
+<br />
+
+<div id="main" role="main">
+  <%= yield %>
+</div>
 
 <br />
 <br />
