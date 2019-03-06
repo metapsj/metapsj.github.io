@@ -41,6 +41,7 @@
 <main>
   <h2 class="section__label">Latest</h2>
 
+  <div class="post-box">
   <% blog.articles[0...5].each do |article| %>
     <article class="post">
       <%= link_to article.title, article, class: "post__title" %>
@@ -48,9 +49,8 @@
       <p class="post__summary"><%= article.data.summary %></p>
       <a href="<%= article.url %>" class="post__more">Read More</a>
     </article>
-
-    <br />
   <% end %>
+  </div>
 
 </main>
 
@@ -77,9 +77,11 @@
 <br />
 <br />
 
+<!--
 <div id="main" role="main">
-  <%= yield %>
+  <%# = yield %>
 </div>
+-->
 
 <br />
 <br />

@@ -12,6 +12,7 @@
 .section {
 
   &__label {
+    color: darken($color-grey-dark, 15%);
     text-transform: uppercase;
   }
 }
@@ -19,6 +20,7 @@
 
 // POST
 .post {
+  margin-bottom: 2.5rem;
 
   &__title {
     font-size: 4.5rem;
@@ -44,7 +46,11 @@
   &__more {
   }
 
+  &:last-child {
+    margin-bottom: 7.5rem;
+  }
 }
+
 
 /* button */
 /* card */
