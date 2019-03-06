@@ -39,13 +39,13 @@
 <br />
 
 <main>
-  <h2>Latest</h2>
+  <h2 class="section__label">Latest</h2>
 
   <% blog.articles[0...5].each do |article| %>
     <article class="post">
       <%= link_to article.title, article, class: "post__title" %>
       <div class="post__date"><%= article.date.strftime('%B %e %Y') %></div>
-      <p class="post__summary"><%= article.summary %></p>
+      <p class="post__summary"><%= article.data.summary %></p>
       <a href="<%= article.url %>" class="post__more">Read More</a>
     </article>
 

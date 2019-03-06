@@ -7,6 +7,16 @@
   color: #433754;
 }
 
+
+// SECTION
+.section {
+
+  &__label {
+    text-transform: uppercase;
+  }
+}
+
+
 // POST
 .post {
 
@@ -14,6 +24,7 @@
     font-size: 4.5rem;
     text-decoration: none;
     color: #4788f2;
+    line-height: 6rem;
   }
 
   &__date {
@@ -25,9 +36,9 @@
 
   &__summary {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 2rem;
+    font-size: 1.85rem;
     line-height: 1.7;
-    color: $color-grey-dark-3;  
+    color: lighten($color-grey-dark-3, 15%);  
   }
 
   &__more {
