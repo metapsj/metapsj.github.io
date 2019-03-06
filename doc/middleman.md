@@ -14,6 +14,10 @@ https://www.discovermeteor.com/blog/three-middleman-hacks-were-using-on-this-sit
 # custom collections with middleman
 https://ryanmerrill.net/2014/07/25/custom-collections.html
 
+# blogging on heroku with middleman
+# cheat sheet for article object model
+http://blog.pixelcabin.io/2015/03/23/blogging-on-heroku-with-middleman/
+
 # build a blog with middleman and host on github pages
 # important bits are the difference between source / development, master, and gh-pages branches
 https://medium.com/@ryanswapp/build-a-blog-with-middleman-and-host-on-github-pages-aab82a7fc56e
