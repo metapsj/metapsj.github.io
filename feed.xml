@@ -14,7 +14,7 @@
     <link rel="alternate" href="http://blog.url.com/posts/2019/03/04/something-about-a-custom-default-template-for-articles/"/>
     <id>http://blog.url.com/posts/2019/03/04/something-about-a-custom-default-template-for-articles/</id>
     <published>2019-03-04T12:13:00-08:00</published>
-    <updated>2019-03-06T12:34:30-08:00</updated>
+    <updated>2019-03-06T12:46:59-08:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -28,7 +28,7 @@ Vestibulum fermentum porttitor posuere. Cras ac molestie nisi. Maecenas tempus p
     <link rel="alternate" href="http://blog.url.com/posts/2019/03/04/messing-with-time-zone-settings/"/>
     <id>http://blog.url.com/posts/2019/03/04/messing-with-time-zone-settings/</id>
     <published>2019-03-04T11:59:00-08:00</published>
-    <updated>2019-03-06T12:32:40-08:00</updated>
+    <updated>2019-03-06T12:47:51-08:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -41,8 +41,8 @@ Vestibulum fermentum porttitor posuere. Cras ac molestie nisi. Maecenas tempus p
     <title>Test Post</title>
     <link rel="alternate" href="http://blog.url.com/posts/2019/02/28/test-post/"/>
     <id>http://blog.url.com/posts/2019/02/28/test-post/</id>
-    <published>2019-02-28T00:00:00-08:00</published>
-    <updated>2019-03-06T12:30:45-08:00</updated>
+    <published>2019-02-28T03:43:00-08:00</published>
+    <updated>2019-03-06T12:47:40-08:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -55,8 +55,8 @@ Vestibulum fermentum porttitor posuere. Cras ac molestie nisi. Maecenas tempus p
     <title>Example Article</title>
     <link rel="alternate" href="http://blog.url.com/posts/2012/01/01/example-article/"/>
     <id>http://blog.url.com/posts/2012/01/01/example-article/</id>
-    <published>2012-01-01T00:00:00-08:00</published>
-    <updated>2019-03-06T12:28:56-08:00</updated>
+    <published>2012-01-01T01:11:00-08:00</published>
+    <updated>2019-03-06T12:47:20-08:00</updated>
     <author>
       <name>Article Author</name>
     </author>
