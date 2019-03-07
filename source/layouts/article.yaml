@@ -35,15 +35,13 @@
 </header>
 
 <br />
-<br />
-<br />
 
-<div id="main" role="main">
-  <%= yield %>
+<div class="post">
+  <div class="post__title"><%= current_page.title %></div>
+  <div class="post__date"><%= current_page.date.strftime('%A, %B %e, %Y') %></div>
+  <div class="post__summary"><%= yield %></div>
 </div>
 
-<br />
-<br />
 <br />
 
 <footer>
