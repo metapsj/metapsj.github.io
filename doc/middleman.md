@@ -17,6 +17,12 @@ https://ryanmerrill.net/2014/07/25/custom-collections.html
 # middleman snippets
 https://www.joshfry.me/blog/2014/06/05/middleman-snippets/
 
+# middleman tricks and hacks
+https://willschenk.com/articles/2014/middleman-tricks-and-hacks/
+
+# enable static ecommerce on middleman static site generator
+https://snipcart.com/blog/static-site-e-commerce-integrating-snipcart-with-middleman
+
 # blogging on heroku with middleman
 # cheat sheet for article object model
 http://blog.pixelcabin.io/2015/03/23/blogging-on-heroku-with-middleman/
