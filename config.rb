@@ -26,7 +26,7 @@ activate :blog do |blog|
   # Matcher for blog source files
   # blog.sources = "{year}-{month}-{day}-{title}.html"
   # blog.taglink = "tags/{tag}.html"
-  blog.layout = "post-layout"
+  blog.layout = "article"
   # blog.summary_separator = /(READMORE)/
   # blog.summary_length = 250
   # blog.year_link = "{year}.html"
@@ -55,18 +55,13 @@ activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
 end
 
-# deploy
-activate :deploy do |deploy|
-  deploy.deploy_method = :git
-  deploy.branch = 'master'
-  deploy.build_before = true
-end
-
 # pretty urls
 activate :directory_indexes
 
 # livereload
-activate :livereload
+configure :development do
+	activate :livereload
+end
 
 # Layouts
 # https://middlemanapp.com/basics/layouts/
@@ -105,8 +100,17 @@ page "/feed.xml", layout: false
 activate :minify_html
 
 configure :build do
+	ignore '/admin/*'
   activate :minify_css
   activate :minify_javascript
   activate :asset_hash
+	# activate :relative_assets
+end
+
+# deploy
+activate :deploy do |deploy|
+  deploy.deploy_method = :git
+  deploy.branch = 'master'
+  deploy.build_before = true
 end
 
