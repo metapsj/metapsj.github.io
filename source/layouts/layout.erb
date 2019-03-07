@@ -51,7 +51,7 @@
       <div class="post__date"><%= article.date.strftime('%A, %B %e, %Y') %></div>
       <div class="post__summary">
         <%= article.data.summary %>
-        <p><%= link_to 'Read More', article, class: "post_more" %></p>
+        <%= link_to 'Read More', article, class: "post__more" %>
       </div>
     </article>
   <% end %>

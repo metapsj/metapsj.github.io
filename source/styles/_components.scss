@@ -47,6 +47,11 @@
     color: lighten($color-grey-dark-3, 15%);  
   }
 
+  &__more {
+    display: block;
+    padding-top: 1.25rem;
+  }
+
 	&__body {
 	}
 
