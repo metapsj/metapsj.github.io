@@ -12,6 +12,6 @@ gem 'middleman-livereload', '~> 3.4'
 gem 'middleman-deploy', '~> 2.0.0.pre.alpha'
 
 gem 'builder', '~> 3.2'
-# gem 'redcarpet', '~> 3.4'
+gem 'redcarpet', '~> 3.4'
 gem 'nokogiri', '~> 1.10'
 

@@ -9,11 +9,18 @@ set :css_dir, "styles"
 set :js_dir, "javascripts"
 set :images_dir, "images"
 
-# markdown
-set :markdown_engine, :kramdown
-
 # code highlighting
 activate :syntax, line_numbers: true
+set :markdown_engine, :redcarpet
+set :markdown, 
+	fenced_code_blocks: true, 
+	smartypants: true,
+	tables: true,
+	autolink: true,
+	space_after_headers: true,
+	underline: true,
+	highlight: true,
+	footnotes: true
 
 # blog
 activate :blog do |blog|
