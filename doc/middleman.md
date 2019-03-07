@@ -23,6 +23,12 @@ https://willschenk.com/articles/2014/middleman-tricks-and-hacks/
 # enable static ecommerce on middleman static site generator
 https://snipcart.com/blog/static-site-e-commerce-integrating-snipcart-with-middleman
 
+# accelerated mobile pages (AMP) using middleman
+https://discourse.skcript.com/t/accelerated-mobile-pages-amp-using-middleman/466
+
+# adding SEO to your middleman site
+https://briandouglas.me/posts/2016/03/26/adding-seo-to-your-middleman-site
+
 # blogging on heroku with middleman
 # cheat sheet for article object model
 http://blog.pixelcabin.io/2015/03/23/blogging-on-heroku-with-middleman/
