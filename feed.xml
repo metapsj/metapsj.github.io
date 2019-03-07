@@ -28,15 +28,75 @@ Vestibulum fermentum porttitor posuere. Cras ac molestie nisi. Maecenas tempus p
     <link rel="alternate" href="http://blog.url.com/posts/2019/03/04/messing-with-time-zone-settings/"/>
     <id>http://blog.url.com/posts/2019/03/04/messing-with-time-zone-settings/</id>
     <published>2019-03-04T11:59:00-08:00</published>
-    <updated>2019-03-06T17:33:56-08:00</updated>
+    <updated>2019-03-06T18:35:03-08:00</updated>
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;p&gt;Messing with the time zone settings in Middleman&lt;/p&gt;
+    <content type="html">&lt;p&gt;Messing with the &lt;em&gt;time zone&lt;/em&gt; settings in Middleman&lt;/p&gt;
 
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu odio quis mauris rhoncus euismod. Morbi venenatis elit dui, quis tincidunt odio ultrices et. Donec tempus enim vel urna luctus congue. Quisque facilisis, metus quis imperdiet fringilla, mauris est iaculis diam, quis consectetur ante purus sit amet tortor. Etiam ac leo leo. Nulla vel ultrices enim. Aenean nec iaculis enim, sed condimentum sem. Aliquam pharetra eleifend vulputate. Pellentesque scelerisque egestas dolor, id congue metus tincidunt vitae. In hac habitasse platea dictumst. Ut commodo nulla mauris, malesuada pharetra metus feugiat ac. Fusce mattis urna in magna ullamcorper, a iaculis urna fermentum. Fusce in semper purus.&lt;/p&gt;
+&lt;hr&gt;
+&lt;div class="highlight"&gt;&lt;pre class="highlight javascript"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+2
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;&lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;s&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s2"&gt;"JavaScript syntax highlighting"&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;span class="nx"&gt;alert&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;s&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;hr&gt;
 
-&lt;p&gt;Vestibulum fermentum porttitor posuere. Cras ac molestie nisi. Maecenas tempus pulvinar suscipit. Nam nec est mauris. Phasellus lacinia massa a hendrerit laoreet. Donec laoreet ex et condimentum vulputate. Maecenas suscipit, ex id hendrerit pulvinar, nunc velit faucibus eros, vel rhoncus odio quam quis nisi. Integer gravida convallis nulla, vitae bibendum nibh bibendum ac. Sed luctus mi non iaculis eleifend. Sed ac tincidunt turpis.&lt;/p&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu odio quis mauris rhoncus euismod. Morbi venenatis elit dui, quis tincidunt odio ultrices et. Donec tempus enim vel urna luctus congue. Quisque facilisis, metus quis imperdiet fringilla, mauris est iaculis diam, quis consectetur ante purus sit amet tortor. Etiam ac leo leo. Nulla vel ultrices enim. Aenean nec iaculis enim, sed condimentum sem. Aliquam pharetra eleifend vulputate. Pellentesque scelerisque egestas dolor, id congue metus tincidunt vitae. In hac habitasse platea dictumst. Ut commodo nulla mauris, malesuada pharetra metus feugiat ac. Fusce mattis urna in magna ullamcorper, a iaculis urna fermentum. Fusce in semper purus.  &lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;table&gt;&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Tables&lt;/th&gt;
+&lt;th style="text-align: center"&gt;Are&lt;/th&gt;
+&lt;th style="text-align: right"&gt;Cool&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;col 3 is&lt;/td&gt;
+&lt;td style="text-align: center"&gt;right-aligned&lt;/td&gt;
+&lt;td style="text-align: right"&gt;$1600&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;col 2 is&lt;/td&gt;
+&lt;td style="text-align: center"&gt;centered&lt;/td&gt;
+&lt;td style="text-align: right"&gt;$12&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;zebra stripes&lt;/td&gt;
+&lt;td style="text-align: center"&gt;are neat&lt;/td&gt;
+&lt;td style="text-align: right"&gt;$1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;&lt;/table&gt;
+
+&lt;hr&gt;
+
+&lt;p&gt;Vestibulum fermentum porttitor posuere. Cras ac molestie nisi. Maecenas tempus pulvinar suscipit. Nam nec est mauris. Phasellus lacinia massa a hendrerit laoreet. Donec laoreet ex et condimentum vulputate. Maecenas suscipit, ex id hendrerit pulvinar, nunc velit faucibus eros, vel rhoncus odio quam quis nisi. Integer gravida convallis nulla, vitae bibendum nibh bibendum ac. Sed luctus mi non iaculis eleifend. Sed ac tincidunt turpis.  &lt;/p&gt;
+
+&lt;hr&gt;
+&lt;div class="highlight"&gt;&lt;pre class="highlight swift"&gt;&lt;code&gt;&lt;table class="rouge-table"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class="rouge-gutter gl"&gt;&lt;pre class="lineno"&gt;1
+2
+3
+4
+5
+6
+7
+&lt;/pre&gt;&lt;/td&gt;&lt;td class="rouge-code"&gt;&lt;pre&gt;&lt;span class="k"&gt;var&lt;/span&gt; &lt;span class="nv"&gt;variable&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+
+&lt;span class="k"&gt;override&lt;/span&gt; &lt;span class="kd"&gt;func&lt;/span&gt; &lt;span class="nf"&gt;viewDidLoad&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+        &lt;span class="k"&gt;super&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;viewDidLoad&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
+
+        &lt;span class="c1"&gt;// some comment&lt;/span&gt;
+&lt;span class="p"&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;hr&gt;
+
+&lt;p&gt;Quote break.  &lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;This is a very long line that will still be quoted properly when it wraps. Oh boy let&amp;rsquo;s keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can &lt;em&gt;put&lt;/em&gt; &lt;strong&gt;Markdown&lt;/strong&gt; into a blockquote.  &lt;/p&gt;
+&lt;/blockquote&gt;
 </content>
   </entry>
   <entry>
@@ -48,7 +108,7 @@ Vestibulum fermentum porttitor posuere. Cras ac molestie nisi. Maecenas tempus p
     <author>
       <name>Article Author</name>
     </author>
-    <content type="html">&lt;p&gt;this is a test post created with the middleman cli e.g. middleman article "Test Post"
+    <content type="html">&lt;p&gt;this is a test post created with the middleman cli e.g. middleman article &amp;ldquo;Test Post&amp;rdquo;
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu odio quis mauris rhoncus euismod. Morbi venenatis elit dui, quis tincidunt odio ultrices et. Donec tempus enim vel urna luctus congue. Quisque facilisis, metus quis imperdiet fringilla, mauris est iaculis diam, quis consectetur ante purus sit amet tortor. Etiam ac leo leo. Nulla vel ultrices enim. Aenean nec iaculis enim, sed condimentum sem. Aliquam pharetra eleifend vulputate. Pellentesque scelerisque egestas dolor, id congue metus tincidunt vitae. In hac habitasse platea dictumst. Ut commodo nulla mauris, malesuada pharetra metus feugiat ac. Fusce mattis urna in magna ullamcorper, a iaculis urna fermentum. Fusce in semper purus.
 Vestibulum fermentum porttitor posuere. Cras ac molestie nisi. Maecenas tempus pulvinar suscipit. Nam nec est mauris. Phasellus lacinia massa a hendrerit laoreet. Donec laoreet ex et condimentum vulputate. Maecenas suscipit, ex id hendrerit pulvinar, nunc velit faucibus eros, vel rhoncus odio quam quis nisi. Integer gravida convallis nulla, vitae bibendum nibh bibendum ac. Sed luctus mi non iaculis eleifend. Sed ac tincidunt turpis.&lt;/p&gt;
 </content>
