@@ -1,66 +1,98 @@
 
-/* components */
-
-// NAVBAR
-.navbar .navbar__link {
-  font-size: 1.6rem;
-  color: #433754;
+// LOGO
+.logo {
+	height: 4rem;
+	width: 4rem;
 }
 
+// TOP-NAV
+.user-nav {
+	display: flex;
+	font-size: 1.6rem;
+	color: #433754;
+
+	&__item {
+		margin: 0 .5rem;
+		width: 40%;
+	}
+
+	&__icon {
+		height: 4rem;
+		width: 4rem;
+	}
+
+	&__link {
+		text-decoration: none;
+	}
+}
+
+.search {
+
+	&__input {
+	}
+	
+	&__button { 
+	}
+
+	&__icon {
+		height: 4rem;
+		width: 4rem;
+	}
+}
 
 // SECTION
 .section {
 
-  &__label {
-    color: darken($color-grey-dark, 15%);
-    text-transform: uppercase;
-  }
+	&__label {
+		color: darken($color-grey-dark, 15%);
+		text-transform: uppercase;
+	}
 }
 
 
 // POST
 .post {
-  margin-bottom: 2.5rem;
+	margin-bottom: 2.5rem;
 
-  &__title {
-    font-size: 4rem;
-    color: lighten($color-black, 25%);
-    line-height: 4.5rem;
-  }
-
-	&__link {
-    text-decoration: none;
-    color: #4788f2;
+	&__title {
+		font-size: 4rem;
+		color: lighten($color-black, 25%);
+		line-height: 4.5rem;
 	}
 
-  &__date {
-    font-size: 1.6rem;
-    font-weight: 600;
-    color: $color-grey-dark;
-    margin-bottom: 2rem;
-  }
+	&__link {
+		text-decoration: none;
+		color: #4788f2;
+	}
 
-  &__summary, &__more {
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 1.85rem;
-    line-height: 1.7;
-    color: lighten($color-grey-dark-3, 15%);  
-  }
+	&__date {
+		font-size: 1.6rem;
+		font-weight: 600;
+		color: $color-grey-dark;
+		margin-bottom: 2rem;
+	}
 
-  &__more {
-    font-size: 1.6rem;
-    font-weight: 500;
-    display: block;
-    padding-top: 1.25rem;
-    text-transform: uppercase;
-  }
+	&__summary, &__more {
+		font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 1.85rem;
+		line-height: 1.7;
+		color: lighten($color-grey-dark-3, 15%);
+	}
+
+	&__more {
+		font-size: 1.6rem;
+		font-weight: 500;
+		display: block;
+		padding-top: 1.25rem;
+		text-transform: uppercase;
+	}
 
 	&__body {
 	}
 
-  &:last-child {
-    margin-bottom: 7.5rem;
-  }
+	&:last-child {
+		// margin-bottom: 2.5rem;
+	}
 }
 
 

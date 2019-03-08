@@ -1,20 +1,44 @@
 
 // container
 .container {
-  max-width: 120rem;
-  margin: 8rem auto;
-  background-color: $color-white;
-  box-shadow: $shadow-dark;
+	max-width: 120rem;
+	margin: 8rem auto;
+	background-color: $color-white;
+	box-shadow: $shadow-dark;
 
-  min-height: 50rem;
+	min-height: 50rem;
 
-  @media only screen and (max-width: $bp-largest) {
-    margin: 0;
-    max-width: 100%;
-    width: 100%;
-  }
+	@media only screen and (max-width: $bp-largest) {
+		margin: 0;
+		max-width: 100%;
+		width: 100%;
+	}
 
-  padding: 10rem;
+	padding: 10rem;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	border-radius: .25rem;
+	background-color: $color-grey-light-1;
+
+	&__item {
+		width: 30%;
+		padding: .5rem 1rem .5rem;
+	}
+}
+
+.main {
+	display: flex;
+}
+
+.aside {
+	margin: 0 0 0 2rem;
+	padding: 0 0 0 2rem;
+	min-width: 20rem;
+	background-color: $color-grey-light-1;
+	border-radius: .25rem;
 }
 
 /* header */
