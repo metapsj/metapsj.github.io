@@ -1,24 +1,117 @@
 
 // LOGO
 .logo {
-	height: 4rem;
-	width: 4rem;
+	height: 3.25rem;
+  width: 3.25rem;
+  margin-left: 3rem;
+  fill: $color-grey-dark-3;
+
+  &:hover {
+    fill: #4788f2;
+  }
 }
 
-// TOP-NAV
-.user-nav {
-	display: flex;
-	font-size: 1.6rem;
-	color: #433754;
 
-	&__item {
-		margin: 0 .5rem;
-		width: 40%;
+// SEARCH
+.search {
+  flex: 0 0 40%;
+
+  // nested flexbox
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+	&__input {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: $color-white;
+    border: 1px solid $color-grey-dark-2;
+    padding: .7rem 2rem;
+    border-radius: .7rem;
+    width: 90%;
+    transition: all .2s;
+    margin-right: -3.25rem;
+
+    &:hover {
+      border-color: #4788f2;
+    }
+
+    &:focus {
+      outline: none;
+      width: 100%;
+      background-color: $color-white;
+      border-color: #4788f2;
+    }
+
+    &::-webkit-input-placeholder {
+      font-weight: 100;
+      color: $color-grey-dark-2; // $color-grey-light-4
+    }
+	}
+	
+  &__input:focus + &__button {
+    background-color: $color-white;
+  }
+
+	&__button { 
+    border: none;
+    background-color: $color-white;
+
+    &:focus {
+      outline: none;
+    }
+
+    &:activate {
+      transform: translateY(2px);
+    }
 	}
 
 	&__icon {
-		height: 4rem;
-		width: 4rem;
+		height: 2rem;
+    width: 2rem;
+    fill: $color-grey-dark-2;
+	}
+}
+
+
+// TOP-NAV
+.user-nav {
+  font-size: 1.6rem;
+  color: #433754;
+
+  align-self: stretch;
+
+  // nested flexbox
+  display: flex;
+  align-items: center;
+
+  & > * {
+    // not necessary, could be applied to &__item
+    padding: 0 2rem;
+    cursor: pointer;
+    height: 100%;
+  }
+
+  & > *:hover {
+    // not necessary, could be applied to &__item
+    background-color: $color-white;
+  }
+
+  & > *:hover &__icon {
+    // not necessary, could be applied to &__item
+    fill: #4788f2;
+  }
+
+	&__item {
+    display: flex;
+    align-items: center;
+	}
+
+	&__icon {
+		height: 2.25rem;
+    width: 2.25rem;
+    fill: $color-grey-dark-3;
 	}
 
 	&__link {
@@ -26,19 +119,6 @@
 	}
 }
 
-.search {
-
-	&__input {
-	}
-	
-	&__button { 
-	}
-
-	&__icon {
-		height: 4rem;
-		width: 4rem;
-	}
-}
 
 // SECTION
 .section {
