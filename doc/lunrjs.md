@@ -8,3 +8,10 @@ https://matthewdaly.co.uk/blog/2015/04/18/how-i-added-search-to-my-site-with-lun
 # example blog using lunrjs
 https://victorafanasev.info/
 
+
+#
+# TODO: pre-build index
+#
+pre-build index with ruby.  
+middleman plugin for lunrjs.
+
