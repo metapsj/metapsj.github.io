@@ -1,117 +1,133 @@
 
 // LOGO
 .logo {
-	height: 3.25rem;
-  width: 3.25rem;
-  margin-left: 3rem;
-  fill: $color-grey-dark-3;
+	align-self: stretch;
 
-  &:hover {
-    fill: #4788f2;
-  }
+	// nested flexbox
+	display: flex;
+	align-items: center;
+
+	&__span {
+		// background-color: $color-white;
+		// border-radius: 50%;
+
+    // nested flexbox
+    display: flex;
+	}
+
+	&__svg {
+		height: 3.25rem;
+		width: 3.25rem;
+		margin: 0 2rem;
+		fill: $color-grey-dark-3;
+
+		&:hover {
+			fill: #4788f2;
+		}
+	}
 }
 
 
 // SEARCH
 .search {
-  flex: 0 0 40%;
+	flex: 0 0 40%;
 
-  // nested flexbox
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	// nested flexbox
+	display: flex;
+	align-items: center;
+	justify-content: center;
 
 	&__input {
-    font-family: inherit;
-    font-size: inherit;
-    color: inherit;
-    background-color: $color-white;
-    border: 1px solid $color-grey-dark-2;
-    padding: .7rem 2rem;
-    border-radius: .7rem;
-    width: 90%;
-    transition: all .2s;
-    margin-right: -3.25rem;
+		font-family: inherit;
+		font-size: inherit;
+		color: inherit;
+		background-color: $color-white;
+		border: 1px solid $color-grey-dark-2;
+		padding: .7rem 2rem;
+		border-radius: .7rem;
+		width: 90%;
+		transition: all .2s;
+		margin-right: -3.25rem;
 
-    &:hover {
-      border-color: #4788f2;
-    }
+		&:hover {
+			border-color: #4788f2;
+		}
 
-    &:focus {
-      outline: none;
-      width: 100%;
-      background-color: $color-white;
-      border-color: #4788f2;
-    }
+		&:focus {
+			outline: none;
+			width: 100%;
+			background-color: $color-white;
+			border-color: #4788f2;
+		}
 
-    &::-webkit-input-placeholder {
-      font-weight: 100;
-      color: $color-grey-dark-2; // $color-grey-light-4
-    }
+		&::-webkit-input-placeholder {
+			font-weight: 100;
+			color: $color-grey-dark-2; // $color-grey-light-4
+		}
 	}
-	
-  &__input:focus + &__button {
-    background-color: $color-white;
-  }
 
-	&__button { 
-    border: none;
-    background-color: $color-white;
+	&__input:focus + &__button {
+		background-color: $color-white;
+	}
 
-    &:focus {
-      outline: none;
-    }
+	&__button {
+		border: none;
+		background-color: $color-white;
 
-    &:activate {
-      transform: translateY(2px);
-    }
+		&:focus {
+			outline: none;
+		}
+
+		&:activate {
+			transform: translateY(2px);
+		}
 	}
 
 	&__icon {
 		height: 2rem;
-    width: 2rem;
-    fill: $color-grey-dark-2;
+		width: 2rem;
+		fill: $color-grey-dark-2;
 	}
 }
 
 
 // TOP-NAV
 .user-nav {
-  font-size: 1.6rem;
-  color: #433754;
+	font-size: 1.6rem;
+	color: #433754;
 
-  align-self: stretch;
+	align-self: stretch;
 
-  // nested flexbox
-  display: flex;
-  align-items: center;
+	// nested flexbox
+	display: flex;
+	align-items: center;
 
-  & > * {
-    // not necessary, could be applied to &__item
-    padding: 0 2rem;
-    cursor: pointer;
-    height: 100%;
-  }
+	& > * {
+		// not necessary, could be applied to &__item
+		padding: 0 2rem;
+		cursor: pointer;
+		height: 100%;
+	}
 
-  & > *:hover {
-    // not necessary, could be applied to &__item
-    background-color: $color-white;
-  }
+	& > *:hover {
+		// not necessary, could be applied to &__item
+		background-color: $color-white;
+	}
 
-  & > *:hover &__icon {
-    // not necessary, could be applied to &__item
-    fill: #4788f2;
-  }
+	& > *:hover &__icon {
+		// not necessary, could be applied to &__item
+		fill: #4788f2;
+	}
 
 	&__item {
-    display: flex;
-    align-items: center;
+		display: flex;
+		align-items: center;
 	}
 
 	&__icon {
 		height: 2.25rem;
-    width: 2.25rem;
-    fill: $color-grey-dark-3;
+		width: 2.25rem;
+		fill: $color-grey-dark-3;
 	}
 
 	&__link {
