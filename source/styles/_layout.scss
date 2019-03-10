@@ -32,6 +32,10 @@
 // MAIN
 .main {
 	display: flex;
+
+  main {
+    max-width: 73%;
+  }
 }
 
 
@@ -39,7 +43,8 @@
 .aside {
 	margin: 0 0 0 2rem;
 	padding: 0 0 0 2rem;
-	min-width: 25rem;
+  width: 27%;
+	// min-width: 25rem;
 	background-color: $color-grey-light-1;
 	border-radius: .25rem;
 }
