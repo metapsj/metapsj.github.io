@@ -1,18 +1,19 @@
 
 // CONTAINER
 .container {
-	background-color: $color-white;
-	box-shadow: $shadow-dark;
+  max-width: 120rem;
   margin: 0 auto;
-  padding: 4rem 10rem;
-	max-width: 120rem;
-	min-height: 50rem;
+  background-color: $color-white;
+  box-shadow: $shadow-dark;
+  padding: 1.75rem 2rem;
 
-	@media only screen and (max-width: $bp-largest) {
-		margin: 0;
-		max-width: 100%;
-		width: 100%;
-	}
+  min-height: 50rem;
+
+  @media only screen and (max-width: $bp-largest) {
+    margin: 0;
+    max-width: 100%;
+    width: 100%;
+  }
 }
 
 
@@ -20,20 +21,20 @@
 .header {
   font-size: 1.4rem;
   height: 7rem;
-	background-color: $color-grey-light-1;
+  background-color: $color-grey-light-1;
   border-radius: .25rem;
 
-	display: flex;
-	justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
 
 // MAIN
-.main {
-	display: flex;
+.content {
+  display: flex;
 
-  main {
+  .blog-view {
     max-width: 73%;
   }
 }
@@ -41,12 +42,12 @@
 
 // ASIDE
 .aside {
-	margin: 0 0 0 2rem;
-	padding: 0 0 0 2rem;
+  margin: 0 0 0 2rem;
+  padding: 0 0 0 2rem;
   width: 27%;
-	// min-width: 25rem;
-	background-color: $color-grey-light-1;
-	border-radius: .25rem;
+  // min-width: 25rem;
+  background-color: $color-grey-light-1;
+  border-radius: .25rem;
 }
 
 
