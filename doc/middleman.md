@@ -14,6 +14,9 @@ https://www.discovermeteor.com/blog/three-middleman-hacks-were-using-on-this-sit
 # custom collections with middleman
 https://ryanmerrill.net/2014/07/25/custom-collections.html
 
+# syntax highlighting your middleman blog
+http://www.janruettinger.com/syntax-highlighting-on-your-middleman-blog.html
+
 # code hightlighting with middleman
 https://weaver.tech/blog/code-highlighting-in-middleman.html
 
